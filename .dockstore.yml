@@ -1,0 +1,8 @@
+version: 1.2
+workflows:
+  - name: BaseRecalibrator
+    subclass: WDL
+    primaryDescriptorPath: /BaseRecalibrator.wdl
+    testParameterFiles:
+      - /inputs.json
+    readme: /README.md
