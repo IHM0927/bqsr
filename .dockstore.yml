@@ -4,5 +4,11 @@ workflows:
     subclass: WDL
     primaryDescriptorPath: /BaseRecalibrator.wdl
     testParameterFiles:
-      - /inputs.json
+      - /inputs_baserecalibrator.json
+    readme: /README.md
+  - name: ApplyBQSR
+    subclass: WDL
+    primaryDescriptorPath: /ApplyBQSR.wdl
+    testParameterFiles:
+      - /inputs_applybqsr.json
     readme: /README.md
